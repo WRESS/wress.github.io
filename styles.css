@@ -1,0 +1,103 @@
+.logospace{
+  width: 100%;
+  height: 320px;
+  background-image: url(img/back.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.toplogo{
+ display: block;
+ margin: auto;
+}
+.sublogo{
+  width: 140px;
+  height: 86px;
+}
+.drawer .sublogo{
+  position: absolute;
+  bottom: 16px;
+}
+.title .sublogo{
+  width: 98px;
+  height: 60px;
+}
+@media screen and (max-width: 622px) {
+  .toplogo{
+   width: 90%;
+   height: auto;
+  }
+}
+.mcontent {
+    padding: 40px 28px;
+    border-radius: 2px;
+  }
+.sns{
+  background-color: #424242;
+}
+h1 {
+    font-size: 32px;
+    /* line-height: 48px; */
+    border-left: 6px solid #9b2121;
+    border-bottom: 1px solid #9b2121;
+    padding-left: 0.25em;
+}
+h2 {
+    font-size: 24px;
+    /* line-height: 40px; */
+    border-left: 3px solid #9b2121;
+    padding-left: 0.5em;
+}
+h3{
+    font-size: 18px;
+    /* line-height: 12px; */
+}
+p{
+    text-indent: 1em;
+    font-size: 14px;
+}
+.title a{
+    color: #fff;
+    text-decoration: none;
+}
+ul.article a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+ul.article a:hover{
+    color: #000;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.header{
+  background-color: #9b2121;
+}
+.drawer .mdl-layout-title {
+  position: relative;
+  background: #9b2121;
+  height: 130px;
+}
+.drawer .title {
+    position: absolute;
+    bottom: 3px;
+}
+.main-navigation .mdl-navigation__link{
+  display: inline-block;
+  height: 60px;
+  line-height: 68px;
+  background-color: transparent;
+  border-bottom: 4px solid transparent;
+  transition: background-color 0.25s, border 0.25s;
+}
+.main-navigation .mdl-navigation__link:hover {
+  background-color: #a35b5b;
+  border-bottom: 4px solid white;
+}
+.main-navigation .mdl-navigation__link .active {
+  background-color: #a35b5b;
+  border-bottom: 4px solid white;
+}
+a{
+  color: #a35b5b;
+}
