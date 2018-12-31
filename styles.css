@@ -13,6 +13,18 @@
   width: 140px;
   height: 86px;
 }
+.sectionlogo{
+  width: 320px;
+  height: 167px;
+}
+a .sectionlogo{
+  width: 100%;
+  margin: 0 auto;
+  transition: opacity 0.25s;
+}
+a .sectionlogo:hover{
+  opacity: 0.5 ;
+}
 .drawer .sublogo{
   position: absolute;
   bottom: 16px;
@@ -28,10 +40,10 @@
   }
 }
 .mcontent {
-    padding: 40px 28px;
+    padding: 40px 38px;
     border-radius: 2px;
   }
-.sns{
+body{
   background-color: #424242;
 }
 h1 {
@@ -53,7 +65,7 @@ h3{
 }
 p{
     text-indent: 1em;
-    font-size: 14px;
+    font-size: 16px;
 }
 .title a{
     color: #fff;
@@ -100,4 +112,71 @@ ul.article a:hover{
 }
 a{
   color: #a35b5b;
+}
+table {
+margin: 0 auto;
+border-collapse: separate;
+border-spacing: 0px 15px;
+font-size: 12px;
+}
+
+table th,
+table td {
+padding: 10px;
+}
+
+table th {
+background: #9b2121;
+vertical-align: middle;
+text-align: left;
+width: 100px;
+overflow: visible;
+position: relative;
+color: #fff;
+font-weight: normal;
+font-size: 15px;
+}
+
+table th:after {
+left: 100%;
+top: 50%;
+border: solid transparent;
+content: " ";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
+border-color: rgba(136, 183, 213, 0);
+border-left-color: #9b2121;
+border-width: 10px;
+margin-top: -10px;
+}
+/* firefox */
+@-moz-document url-prefix() {
+table.company th::after {
+float: right;
+padding: 0;
+left: 30px;
+top: 10px;
+content: " ";
+height: 0;
+width: 0;
+position: relative;
+pointer-events: none;
+border: 10px solid transparent;
+border-left: #9b2121 10px solid;
+margin-top: -10px;
+}
+}
+
+table td {
+background: #f8f8f8;
+width: 360px;
+padding-left: 20px;
+}
+
+.photo{
+  float: right;
+  width: 320px;
+  margin: 10px;
 }
