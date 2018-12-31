@@ -58,6 +58,7 @@ h2 {
     /* line-height: 40px; */
     border-left: 3px solid #9b2121;
     padding-left: 0.5em;
+    clear: right;
 }
 h3{
     font-size: 18px;
@@ -176,7 +177,6 @@ padding-left: 20px;
 }
 
 .photo{
-  float: right;
-  width: 320px;
+  width: 100%;
   margin: 10px;
 }
