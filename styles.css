@@ -9,6 +9,12 @@
  display: block;
  margin: auto;
 }
+@media screen and (max-width: 622px) {
+  .toplogo{
+   width: 90%;
+   height: auto;
+  }
+}
 .sublogo{
   width: 140px;
   height: 86px;
@@ -17,8 +23,15 @@
   width: 320px;
   height: 167px;
 }
+@media screen and (max-width: 400px) {
+  .sectionlogo{
+    width: 100%;
+    height: auto;
+  }
+}
 a .sectionlogo{
   width: 100%;
+  height: auto;
   margin: 0 auto;
   transition: opacity 0.25s;
 }
@@ -33,12 +46,7 @@ a .sectionlogo:hover{
   width: 98px;
   height: 60px;
 }
-@media screen and (max-width: 622px) {
-  .toplogo{
-   width: 90%;
-   height: auto;
-  }
-}
+
 .mcontent {
     padding: 40px 38px;
     border-radius: 2px;
