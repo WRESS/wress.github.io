@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#424242">
 	<meta NAME=”ROBOTS” CONTENT=”NOINDEX,NOFOLLOW,NOARCHIVE”>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>１日目行程 - 春合宿しおり</title>
+  <title>持ち物 - 春合宿しおり</title>
   <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
   <link rel="stylesheet" href="../styles.css">
 </head>
@@ -30,7 +30,7 @@
           <li class="nav-item">
             <a class="nav-link" href="../about/">基本情報</a>
           </li>
-          <li class="nav-item dropdown active">
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               行程表
             </a>
@@ -40,7 +40,7 @@
               <a class="dropdown-item" href="../3rd-day/">３日目</a>
             </div>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="../belongings/">持ち物</a>
           </li>
 
@@ -51,32 +51,29 @@
 </header>
 
 <div class="container px-lg-5">
-  <div class="main-part p-3 p-lg-5 my-2 my-md-5 mx-lg-5">
+  <div class="main-part p-5 my-5 mx-lg-5">
       <div class="my-4">
-        <h1>１日目</h1>
+        <h1 class="display-5">持ち物</h1>
+				<ul class="mx-lg-5">
+					<li>お金（二日目は交通費が2000円程度かかります。）</li>
+					<li>着替え（二泊三日分）</li>
+					<li>濡れても良い服（二日目観光の方のみ。カヌー用）</li>
+					<li>身分証</li>
+					<li>常備薬</li>
+					<li>電源タップ（圧倒的に足りないので持っている方はなるべく持ってきてください）</li>
+					<li>元気</li>
+				</ul>
+				<h2>アメニティ</h2>
 				<p class="mx-lg-5">
-				8:30 池袋駅西口公園前集合<br>
-				9:00 バス出発（時間厳守！）<br>
-				12:00 コテージBAN到着<br>
-				～荷物整理～<br>
-				12:30 コテージBAN出発<br>
-				 ～徒歩～<br>
-				12:45　<a href="http://www.navi-city.com/iine/momiji-tei/">もみじ亭</a>（ほうとうを食べる）<br>
-				13:15　もみじ亭発<br>
-				～徒歩～<br>
-				13:32　猿まわし劇場・木の花美術館発（バス停）<br>
-				～バス（富士急行）～<br>
-				13:41　遊覧船ロープウェイ入口<br>
-				14:00　<a href="http://www.fujigokokisen.jp/contents/ensoleille/">遊覧船乗船</a><br>
-				14:30　遊覧船降船<br>
-				～帰宅（BANバス or 公共交通手段）～<br>
-				15:00　BAN到着<br>
-				15:30　調理（二日分）<br>
-				18:00　夕食<br>
-				19:00　片付け・お風呂<br>
-				21:00　コンパ<br>
-				22:30　コンパ終了<br>
-				0:00　原則消灯（コテージなのでこの後飲むとしても静かに飲んでください）</p>
+					お部屋に人数分のフェイスタオル、歯ブラシのセットがあります。<br>
+					またシャンプー、リンス、ボディソープ、ドライヤーが備えてあります。バスタオルはありません。<br>
+					なお、露天風呂（有料）にお入りいただく場合はバスタオルが１枚もらえます。<br>
+					その他、浴衣が有料（350円）で借りられます。
+				</p>
+				<h2>当日かかるお金</h2>
+				<p class="mx-lg-5">
+					日中の移動はバスを使うことが多いため，バス交通費が主にかかります。
+				</p>
       </div>
   </div>
 </div>

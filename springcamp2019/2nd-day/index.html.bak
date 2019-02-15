@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#424242">
 	<meta NAME=”ROBOTS” CONTENT=”NOINDEX,NOFOLLOW,NOARCHIVE”>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>１日目行程 - 春合宿しおり</title>
+  <title>２日目行程 - 春合宿しおり</title>
   <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
   <link rel="stylesheet" href="../styles.css">
 </head>
@@ -51,32 +51,40 @@
 </header>
 
 <div class="container px-lg-5">
-  <div class="main-part p-3 p-lg-5 my-2 my-md-5 mx-lg-5">
+  <div class="main-part p-5 my-5 mx-lg-5">
       <div class="my-4">
-        <h1>１日目</h1>
+        <h1>２日目</h1>
 				<p class="mx-lg-5">
-				8:30 池袋駅西口公園前集合<br>
-				9:00 バス出発（時間厳守！）<br>
-				12:00 コテージBAN到着<br>
-				～荷物整理～<br>
-				12:30 コテージBAN出発<br>
-				 ～徒歩～<br>
-				12:45　<a href="http://www.navi-city.com/iine/momiji-tei/">もみじ亭</a>（ほうとうを食べる）<br>
-				13:15　もみじ亭発<br>
-				～徒歩～<br>
-				13:32　猿まわし劇場・木の花美術館発（バス停）<br>
-				～バス（富士急行）～<br>
-				13:41　遊覧船ロープウェイ入口<br>
-				14:00　<a href="http://www.fujigokokisen.jp/contents/ensoleille/">遊覧船乗船</a><br>
-				14:30　遊覧船降船<br>
-				～帰宅（BANバス or 公共交通手段）～<br>
-				15:00　BAN到着<br>
-				15:30　調理（二日分）<br>
-				18:00　夕食<br>
-				19:00　片付け・お風呂<br>
-				21:00　コンパ<br>
-				22:30　コンパ終了<br>
-				0:00　原則消灯（コテージなのでこの後飲むとしても静かに飲んでください）</p>
+					10:00 出発
+				</p>
+				<h2>スキー</h2>
+				<p class="mx-lg-5">
+					～徒歩～<br>
+					10:19　大桧（バス停）<br>
+					～バス（富士急行）～<br>
+					10:30　御坂スキー場（バス停）着<br>
+					10:32　<a href="http://misaka.kamuisp.com/">カムイみさかスキー場</a>着<br>
+					～スキー～<br>
+					任意の時間（一応17:30まで）に帰宅（バスが一時間に一本しかないので気を付けること！）
+				</p>
+				<h2>観光</h2>
+				<p class="mx-lg-5">
+					9:30 出発<br>
+					～バス～
+					9:50　<a href="http://www.c-ls.jp/%E3%82%AB%E3%83%8C%E3%83%BC%E4%BD%93%E9%A8%93">カントリーレイクシステムズ着</a>
+					10:00-12:00　カヌー体験
+					12:00-13:00　お昼（候補：オルソンさんのいちご・Cafe Mimi・あ・うん亭）<br>
+					13:30-14:30　<a href="http://kcraftpark.com/experience/gelcandle/">河口湖体験工房クラフトパーク</a>でジェルキャンドルづくり体験<br>
+					14:45-16:30 <a href="https://kawaguchikomusicforest.jp/">オルゴールの森美術館</a><br>
+					17:00 帰宅<br>
+					</p>
+					<p class="mx-lg-5">
+					18:00　夕食<br>
+					19:00　片付け・お風呂<br>
+					21:00　コンパ<br>
+					22:30　コンパ終了<br>
+					0:00　原則消灯（コテージなのでこの後飲むとしても静かに飲んでください）
+				</p>
       </div>
   </div>
 </div>

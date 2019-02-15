@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#424242">
 	<meta NAME=”ROBOTS” CONTENT=”NOINDEX,NOFOLLOW,NOARCHIVE”>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>１日目行程 - 春合宿しおり</title>
+  <title>基本情報 - 春合宿しおり</title>
   <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
   <link rel="stylesheet" href="../styles.css">
 </head>
@@ -27,10 +27,10 @@
           <li class="nav-item">
             <a class="nav-link" href="../">トップページ<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="../about/">基本情報</a>
           </li>
-          <li class="nav-item dropdown active">
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               行程表
             </a>
@@ -43,7 +43,6 @@
           <li class="nav-item">
             <a class="nav-link" href="../belongings/">持ち物</a>
           </li>
-
         </ul>
       </div>
     </div>
@@ -51,32 +50,38 @@
 </header>
 
 <div class="container px-lg-5">
-  <div class="main-part p-3 p-lg-5 my-2 my-md-5 mx-lg-5">
+  <div class="main-part p-5 my-5 mx-lg-5">
       <div class="my-4">
-        <h1>１日目</h1>
-				<p class="mx-lg-5">
-				8:30 池袋駅西口公園前集合<br>
-				9:00 バス出発（時間厳守！）<br>
-				12:00 コテージBAN到着<br>
-				～荷物整理～<br>
-				12:30 コテージBAN出発<br>
-				 ～徒歩～<br>
-				12:45　<a href="http://www.navi-city.com/iine/momiji-tei/">もみじ亭</a>（ほうとうを食べる）<br>
-				13:15　もみじ亭発<br>
-				～徒歩～<br>
-				13:32　猿まわし劇場・木の花美術館発（バス停）<br>
-				～バス（富士急行）～<br>
-				13:41　遊覧船ロープウェイ入口<br>
-				14:00　<a href="http://www.fujigokokisen.jp/contents/ensoleille/">遊覧船乗船</a><br>
-				14:30　遊覧船降船<br>
-				～帰宅（BANバス or 公共交通手段）～<br>
-				15:00　BAN到着<br>
-				15:30　調理（二日分）<br>
-				18:00　夕食<br>
-				19:00　片付け・お風呂<br>
-				21:00　コンパ<br>
-				22:30　コンパ終了<br>
-				0:00　原則消灯（コテージなのでこの後飲むとしても静かに飲んでください）</p>
+        <h1>基本情報</h1>
+				<h2>宿泊先</h2>
+					<table class="table mx-lg-5">
+				  <tbody>
+				    <tr>
+				      <th scope="row">名称</th>
+				      <td>河口湖カントリーコテージBan</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">住所</th>
+				      <td>山梨県富士河口湖町河口2092</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">TEL</th>
+				      <td>0555-76-8088</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Website</th>
+				      <td><a href="http://www.c-ban.com">http://www.c-ban.com</a></td>
+				    </tr>
+				  </tbody>
+				</table>
+				<h2>幹事連絡先</h2>
+				<p class="mx-lg-5">中野隼斗：090-6312-8444</p>
+				<h2>注意事項</h2>
+				<ul class="mx-lg-5">
+					<li>はしゃぎすぎて怪我をしないようにしましょう。</li>
+					<li>宿泊先はコテージです。特に深夜は騒ぎすぎて睡眠を妨害しないようにしてください。</li>
+					<li>当日は池袋駅西口公園前に8:30集合です。迷いやすいのでお気を付けください。また，当日は中野が8:00には現地にいるので，迷子になったらすぐに連絡してください。</li>
+				</ul>
       </div>
   </div>
 </div>
