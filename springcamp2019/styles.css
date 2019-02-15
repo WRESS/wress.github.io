@@ -2,6 +2,7 @@ body{
   background-color: #bbb;
   background-image: url( DSC_1028.JPG);
   background-size: cover;
+  background-position: center center;
 }
 .main-part{
     border-radius: 2px;
