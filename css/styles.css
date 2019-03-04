@@ -1,0 +1,159 @@
+.footer {
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 1.2rem 1.5rem;
+  text-align: center;
+  align-items: center;
+  font-size: 1rem;
+}
+body {
+  padding-top: 3rem;
+  color: #5a5a5a;
+  background-color: #424242;
+}
+.jingu-pic{
+  background-image: url(../img/back.jpg);
+    position: relative;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 16rem;
+    background-size: cover;
+    background-position: center;
+}
+.jingu-pic .caption{
+  bottom: 3rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.navbar{
+  z-index: 1030;
+  background-color: #9b2121;
+}
+h1{
+  text-align: center;
+}
+article p{
+  text-indent: 1em;
+}
+.article-info{
+  text-indent: 0;
+}
+.main-area article{
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+@media screen and (min-width: 1200px) {
+  .main-area{
+    width: 70vw;
+  }
+}
+label{
+  color: #212529!important;
+}
+@media screen and (max-width: 576px){
+  article h1{
+    font-size: 1.8em!important;
+  }
+  article h2{
+    font-size: 1.4em!important;
+  }
+  article h3{
+    font-size: 1.2em!important;
+  }
+}
+article h2{
+  border-left: 6px solid #9b2121;
+  border-bottom: 1px solid #9b2121;
+  padding-left: 0.25em;
+  margin-top: 1.5rem;
+}
+article h3{
+  border-left: 3px solid #9b2121;
+  padding-left: 0.5em;
+  margin-top: 1.5rem;
+}
+a{
+  color: #a35b5b;
+}
+table {
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0px 15px;
+  font-size: 12px;
+}
+
+table th,
+table td {
+  padding: 10px;
+}
+
+table th {
+  background: #9b2121;
+  vertical-align: middle;
+  text-align: left;
+  width: 100px;
+  overflow: visible;
+  position: relative;
+  color: #fff;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+table th:after {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-left-color: #9b2121;
+  border-width: 10px;
+  margin-top: -10px;
+}
+/* firefox */
+@-moz-document url-prefix() {
+  table.company th::after {
+    float: right;
+    padding: 0;
+    left: 30px;
+    top: 10px;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: relative;
+    pointer-events: none;
+    border: 10px solid transparent;
+    border-left: #9b2121 10px solid;
+    margin-top: -10px;
+  }
+}
+
+table td {
+  background: #f8f8f8;
+  width: 360px;
+  padding-left: 20px;
+}
+.breadcrumb{
+  background-color: inherit;
+  font-size: 0.85em;
+}
+.photo{
+  width: 100%;
+  margin-bottom: 1em;
+}
+.enh1{
+    margin-bottom: .5rem!important;
+    font-family: inherit!important;
+    font-weight: 400!important;
+    line-height: 1.2!important;
+}
