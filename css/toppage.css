@@ -46,3 +46,6 @@ main{
 .l_logo{
   height: 50vh;
 }
+p.eng{
+  text-indent: 0.5em;
+}
