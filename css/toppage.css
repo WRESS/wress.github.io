@@ -49,3 +49,9 @@ main{
 p.eng{
   text-indent: 0.75em;
 }
+.sns a{
+  color: hsla(0,0%,0%,.5);
+}
+.sns a:hover{
+  color: hsla(0,0%,0%,.7);
+}
