@@ -1,0 +1,38 @@
+</main>
+<footer class="footer py-3">
+  <div class="container">
+    <p>
+      &copy; 2019 {{ if ne ( now.Format "2006" ) "2019" }}- {{ now.Format "2006" }}{{ end }} WRESS
+    </p>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script><script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign();  $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank'); });
+  var mopen = 0;
+$('#nav-toggle').click(function(){
+  if (mopen ===0 ){
+    mopen = 1
+  } else {
+    mopen = 0;
+  }
+  var pos = $(window).scrollTop();
+  if ( pos === 0 ){
+    $('.navbar').toggleClass('tp-navbar');
+  }
+});
+$(window).scroll(function() {
+  // ページのトップからのスクロール位置を取得
+  var pos = $(window).scrollTop();
+  // スクロール位置の研さ
+  if (pos === 0 && mopen === 0) {
+    $('.navbar').addClass('tp-navbar');
+  }
+  else {
+    $('.navbar').removeClass('tp-navbar');
+  }
+});
+</script>
+</body>
+</html>

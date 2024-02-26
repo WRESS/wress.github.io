@@ -1,0 +1,48 @@
+{{ $image := .Page.Resources.GetMatch (printf "%s*" (.Get 0)) }}
+{{/* Extra Large Image (1024x) */}}
+{{ if gt $image.Width 1024 }}
+{{ .Scratch.Set "xlarge" ($image.Resize "1024x") }}
+{{ else }}
+{{ .Scratch.Set "xlarge" ($image) }}
+{{ end }}
+{{ $xlarge := .Scratch.Get "xlarge" }}
+{{/* Large Image (768x) */}}
+{{ if gt $image.Width 768 }}
+{{ .Scratch.Set "large" ($image.Resize "768x") }}
+{{ else }}
+{{ .Scratch.Set "large" ($image) }}
+{{ end }}
+{{ $large := .Scratch.Get "large" }}
+{{/* Middle Image (576x) */}}
+{{ if gt $image.Width 576 }}
+{{ .Scratch.Set "middle" ($image.Resize "576x") }}
+{{ else }}
+{{ .Scratch.Set "middle" ($image) }}
+{{ end }}
+{{ $middle := .Scratch.Get "middle" }}
+{{/* Small Image (384x) */}}
+{{ if gt $image.Width 384 }}
+{{ .Scratch.Set "small" ($image.Resize "384x") }}
+{{ else }}
+{{ .Scratch.Set "small" ($image) }}
+{{ end }}
+{{ $small := .Scratch.Get "small" }}
+<div class="row">
+  <div class="col-sm-7">
+    <div class=mt-md-3>
+      <p>{{ .Inner | markdownify }}</p>
+    </div>
+  </div>
+  <div class="col-sm-5">
+    <figure class="my-1">
+      <a href="{{ $image.RelPermalink }}" target="_blank">
+      <img
+      alt="{{ $image.Title }}"
+      width="100%"
+      src="{{ $small.RelPermalink }}"
+      srcset="{{ $small.RelPermalink }} 384w, {{ $middle.RelPermalink }} 586w, {{ $large.RelPermalink }} 768w, {{ $xlarge.RelPermalink }} 1024w"
+      title="{{ $image.Title }}"
+      ></a>
+    </figure>
+  </div>
+</div>
