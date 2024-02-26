@@ -4,7 +4,7 @@ title = "WRESS"
 HasCJKLanguage = true
 disablekinds = ["taxonomy", "taxonomyTerm", "sitemap", "robotsTXT", "RSS"]
 timeout = 30000
-publishDir = "docks"
+publishDir = "public"
 [frontmatter]
   lastmod = [":fileModTime"]
 [markup]
