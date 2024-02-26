@@ -4,7 +4,7 @@ title: "新歓"
 
 ## 新歓活動
 
-<div class="text-center py-5"><span class="h1">2024年度分は3月中旬以降に更新予定です。</span></div>
+<div class="text-center py-5"><span class="h2">2024年度分は3月中旬以降に更新予定です。</span></div>
 
 ### 新歓デイリー (昨年度)
 

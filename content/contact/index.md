@@ -33,7 +33,7 @@ Instagram もやってます！こちらからもご連絡を受け付けてお�
   <div class="col-sm-6">
     <h3>通常Twitter</h3>
     <p>
-      <a href="https://twitter.com/wress_twi" target="_blank">@wress_twi（通常Twitter）</a>
+      <a href="https://twitter.com/wressD_official" target="_blank">@wressD_official（通常Twitter）</a>
     </p>
     <p>
       通常の活動報告などに使っているTwitterです。
