@@ -4,7 +4,7 @@ title: "新歓"
 
 ## 新歓活動
 ### 新歓日程
-2024年4月の新歓日程です！時刻、場所などの情報は今後公開予定です！
+2024年4月の新歓日程です！時刻、場所などの詳細情報は[Instagram（wress_official）](https://www.instagram.com/wress_official/)をご覧ください。
 {{%image "calender2024.jpg"%}}
 
 
