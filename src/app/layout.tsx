@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import Header from "@/components/Header/Header";
+import { WRESSTheme } from "@/theme/WRESSTheme";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +19,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <ThemeProvider theme={WRESSTheme}>
+          <Header />
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
