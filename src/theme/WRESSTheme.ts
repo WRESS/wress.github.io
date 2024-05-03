@@ -9,7 +9,7 @@ export const WRESSTheme = createTheme(
             main: '#9b2121',
           },
           secondary: {
-            main: '#9c27b0',
+            main: '#ffffff',
           },
         },
       }
