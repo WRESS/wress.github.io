@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@mui/material/styles";
 import Header from "@/components/Header/Header";
-import { WRESSTheme } from "@/theme/WRESSTheme";
+import { WRESSTheme } from "@/libs/theme/WRESSTheme";
 
 const inter = Inter({ subsets: ["latin"] });
 
