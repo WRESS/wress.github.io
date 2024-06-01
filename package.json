@@ -7,8 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "clean": "rm -rf node_modules",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "gen:types": "microcms-generate-types src/libs/microcms/schema src/libs/microcms/types"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
